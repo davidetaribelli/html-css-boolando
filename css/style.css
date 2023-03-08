@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bgOrange{background-color: #ff6900;}
@@ -14,13 +15,45 @@
     flex-direction: row;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #ddd;
+}
+
+i{
+    color: white;
+    margin: 5px;
+}
+
+i:hover{
+    cursor: pointer;
+    color: #ddd;
+}
 /******* HEADER *******/
 
 .navBar{
+    position: fixed;
     width: 100%;
     min-height: 70px;
     margin-bottom: 60px;
+    align-items: center;
+    justify-content: space-around;
 }
+.category a{
+    font-size: 17px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.logo img{
+    height: 30px;
+}
+
 
 
 /****** MAIN *******/
@@ -30,6 +63,7 @@
     min-height: 1560px;
     margin: 0 auto;
     flex-wrap: wrap;
+    padding: 100px;
 }
 
 .person{
@@ -45,5 +79,4 @@
 .footer{
     width: 100%;
     min-height: 110px;
-    margin-top: 60px;
 }
