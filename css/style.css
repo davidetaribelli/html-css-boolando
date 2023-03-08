@@ -75,7 +75,6 @@ h5{
     top: 0;
     width: 100%;
     min-height: 70px;
-    margin-bottom: 60px;
     align-items: center;
     justify-content: space-around;
     z-index: 999;
@@ -97,7 +96,7 @@ h5{
     min-height: 1560px;
     margin: 0 auto;
     flex-wrap: wrap;
-    padding: 100px;
+    padding: 150px;
 }
 
 .person{
@@ -114,8 +113,6 @@ h5{
 .catalogo img{
    width: 100%;
 }
-
-
 
 .second{
     position: absolute;
@@ -147,7 +144,25 @@ h5{
 
 /****** FOOTER ******/
 
-.footer{
+.boxFooter{
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
     width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
     min-height: 110px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.social h3{
+    color: white;
+    font-size: 15px;
 }
